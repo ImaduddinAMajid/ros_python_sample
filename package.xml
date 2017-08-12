@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>ros_python_sample</name>
+  <version>0.0.0</version>
+  <description>Sample ROS package written in Python</description>
+  <maintainer email="Imaduddin.a.m@mail.ugm.ac.id">imad</maintainer>
+  <license>MIT</license>
+  <url type="website">https://realpython.com/blog/python/write-your-first-robot-python-script-in-ros/</url>
+  <author email="Imaduddin.a.m@mail.ugm.ac.id">Imaduddin A Majid</author>  
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
