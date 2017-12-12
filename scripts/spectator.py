@@ -2,6 +2,7 @@
 '''Simple ROS Python script to continually subscribe a message to the
 `microphone` topic'''
 
+import os
 import rospy
 from std_msgs.msg import String
 
